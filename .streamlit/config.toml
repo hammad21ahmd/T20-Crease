@@ -1,0 +1,26 @@
+# T20 Crease: Streamlit settings (no secrets here). Light theme: white ground, cool pale grey-blue cards and
+# tables, teal-blue primary, one amber accent. Streamlit reads this file from the folder it is started in (the project root).
+[theme]
+base = "light"
+primaryColor = "#0E7490"
+linkColor = "#0E7490"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#E4EEF2"
+textColor = "#13242C"
+borderColor = "#CBDCE3"
+showWidgetBorder = true
+baseRadius = "3px"
+font = "sans serif"
+headingFont = "serif"
+dataframeHeaderBackgroundColor = "#E4EEF2"
+dataframeHeaderTextColor = "#13242C"
+dataframeBorderColor = "#CBDCE3"
+chartCategoricalColors = ["#0E7490", "#CF6F05", "#8A9BA3"]
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showSidebarNavigation = false
+showErrorDetails = "none"
